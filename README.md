@@ -1,0 +1,3 @@
+# Swift Silent Crash in map() with Non-Numeric Data
+
+This repository demonstrates a potential runtime crash in Swift when using the `map` function with an array containing unexpected data types.  The `bug.swift` file shows the problematic code, which silently crashes if the array contains non-numeric values.  The `bugSolution.swift` file provides a robust solution using error handling to prevent the crash.
